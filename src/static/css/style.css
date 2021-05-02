@@ -1,0 +1,117 @@
+@font-face {
+  font-family: GothaProBla;
+  src: url(../font/GothaProBla.otf)
+}
+
+@font-face {
+  font-family: gotha-i;
+  src: url(../font/GothaProBlaIta.otf)
+}
+
+@font-face {
+  font-family: gotha;
+  src: url(../font/GothaProReg.otf)
+}
+
+@font-face {
+  font-family: gotha-l;
+  src: url(../font/GothaProLig.otf)
+}
+
+@media (min-width: 1441px) {
+  .container {
+    max-width: 1441px;
+  }
+}
+
+#body {
+  font-family: gotha;
+}
+
+body {
+  background-color: #efefef;
+}
+
+.lin-1 {
+  background-color: white;
+}
+
+#search {
+  font-family: gotha;
+  margin-top: 10px;
+  float: right;
+  width: 453px;
+  height: 50px;
+
+  border-radius: 50px 50px 50px 50px;
+  background-color: #efefef;
+  font-size: 18px;
+  font-weight: bolder;
+}
+
+input#search {
+  background-image: url('../img/ser.svg');
+  background-size: 28px;
+  background-position: 10px;
+  background-position-x: 20px;
+  background-repeat: no-repeat;
+  text-indent: 45px;
+}
+
+input#search:focus {
+  background-image: none;
+  text-indent: 0px;
+}
+
+#btn-search {
+  float: right;
+  width: 112px;
+  height: 50px;
+  margin-top: 15px;
+}
+
+.lin-nav {
+  background-color: white;
+  margin-left: 56px;
+}
+
+.lin-nav-footer {
+  background-color: rgb(34, 34, 34);
+  color: white;
+  font-size: 23px;
+  width: 110%;
+  padding: 20px;
+}
+
+.ln {
+  color: whitesmoke;
+  float: right;
+  padding-right: 46px;
+}
+
+.ln:hover {
+  text-decoration: none;
+  color: white;
+  background-color: rgba(184, 184, 184, 0.151);
+  border-radius: 20px 20px 20px 20px;
+}
+
+.ln-fd {
+  background-color: rgb(34, 34, 34);
+  border-radius: 0px 0px 20px 20px;
+  margin-top: 23px;
+}
+
+.ln-d {
+  font-size: 23px;
+  color: whitesmoke;
+  padding: 20px;
+  width: 300px;
+  border-radius: 20px 20px 20px 20px;
+}
+
+.ln-d:hover{
+  background-color: rgba(184, 184, 184, 0.151);
+  color: white;
+  font-weight: bold;
+}
