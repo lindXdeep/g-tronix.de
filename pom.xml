@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+
+  <modelVersion>4.0.0</modelVersion>
+
+  <groupId>de.gtronix</groupId>
+  <artifactId>g-tronix</artifactId>
+  <version>1.0-SNAPSHOT</version>
+
+  <name>g-tronix</name>
+  <description>g-tronix</description>
+
+  <dependencies>
+    <!-- dependencies -->
+  </dependencies>
+
+  <properties>
+
+  </properties>
+
+  <url>https://github.com/lindXdeep</url>
+
+  <build>
+    <sourceDirectory>${basedir}/src/main/php</sourceDirectory>
+    <outputDirectory>${basedir}/out</outputDirectory>
+    <finalName>${project.name}</finalName>
+
+  </build>
+
+</project>
