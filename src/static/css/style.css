@@ -38,11 +38,9 @@ body {
 
 #search {
   font-family: gotha;
-  margin-top: 10px;
   float: right;
   width: 453px;
   height: 50px;
-
   border-radius: 50px 50px 50px 50px;
   background-color: #efefef;
   font-size: 18px;
@@ -56,11 +54,13 @@ input#search {
   background-position-x: 20px;
   background-repeat: no-repeat;
   text-indent: 45px;
+  font-weight: bolder;
 }
 
 input#search:focus {
   background-image: none;
   text-indent: 0px;
+  text-decoration: none;
 }
 
 #btn-search {
@@ -68,11 +68,22 @@ input#search:focus {
   width: 112px;
   height: 50px;
   margin-top: 15px;
+  color: white;
+  font-size: 20px;
+  background-color: #B0936A;
 }
+
+#btn-search:hover {
+  background: #c9a879;
+  color: white;
+  font-weight: bold;
+}
+
 
 .lin-nav {
   background-color: white;
   margin-left: 56px;
+  z-index: 2;
 }
 
 .lin-nav-footer {
@@ -80,13 +91,16 @@ input#search:focus {
   color: white;
   font-size: 23px;
   width: 110%;
-  padding: 20px;
+
+  z-index: 1;
 }
 
 .ln {
   color: whitesmoke;
   float: right;
+  padding: 20px;
   padding-right: 46px;
+  z-index: 1;
 }
 
 .ln:hover {
@@ -99,7 +113,7 @@ input#search:focus {
 .ln-fd {
   background-color: rgb(34, 34, 34);
   border-radius: 0px 0px 20px 20px;
-  margin-top: 23px;
+  margin-top: 3px;
 }
 
 .ln-d {
@@ -115,3 +129,33 @@ input#search:focus {
   color: white;
   font-weight: bold;
 }
+
+#bgVideo {
+  position: relative;
+  right: 0;
+  bottom: 0;
+  width: 102%; 
+  min-height: 80%;
+  margin: -15px;
+  z-index: 0;
+}
+
+.about {
+  position: sticky;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  color: #f1f1f1;
+  width: 60%;
+  padding: 40px;
+  padding-left: 80px;
+  margin-top: -220px;
+}
+
+h1 {
+  font-size: 45px;
+  font-weight: bold;
+}
+
+
+
+ 

@@ -15,9 +15,24 @@
 <body>
 
   <div class="container lin-1">
+
     <?php include "./pages/header.html" ?>
 
+    <video autoplay muted loop id="bgVideo" onclick="myFunction()">
+      <source src="./static/video/bgvideo.webm" type="video/webm">
+      Your browser does not support HTML5 video.
+    </video>
+
+    <div class="about">
+      <h1>Komplettversorgung mit elektronischen Komponenten</h1>
+    </div>
+
+
+
+
   </div>
+
+
 
 
 
@@ -36,7 +51,7 @@
 </html>
 
 
-
+<!-- 
 
 <p><a href="pages/add.html">Add new data</a></p>
 
@@ -55,4 +70,4 @@
 </div>
 <div class="stretch">
   <h1>Some more content down here...</h1>
-</div> 
+</div> -->
