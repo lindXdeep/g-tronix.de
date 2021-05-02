@@ -79,7 +79,6 @@ input#search:focus {
   font-weight: bold;
 }
 
-
 .lin-nav {
   background-color: white;
   margin-left: 56px;
@@ -91,7 +90,6 @@ input#search:focus {
   color: white;
   font-size: 23px;
   width: 110%;
-
   z-index: 1;
 }
 
@@ -124,7 +122,7 @@ input#search:focus {
   border-radius: 20px 20px 20px 20px;
 }
 
-.ln-d:hover{
+.ln-d:hover {
   background-color: rgba(184, 184, 184, 0.151);
   color: white;
   font-weight: bold;
@@ -134,7 +132,7 @@ input#search:focus {
   position: relative;
   right: 0;
   bottom: 0;
-  width: 102%; 
+  width: 102%;
   min-height: 80%;
   margin: -15px;
   z-index: 0;
@@ -156,6 +154,81 @@ h1 {
   font-weight: bold;
 }
 
+#section-1 {
+  background-color: #efefef;
+}
 
+#section-2 {
+  background-color: #efefef;
+  font-size: 19px;
+}
 
- 
+#section-3 {
+  background-color: white;
+  padding: 80px;
+  padding-top: 130px;
+}
+
+.card {
+  background-color: #efefef;
+  border: none;
+}
+
+.card-body-2 {
+  background-color: white;
+  font-size: 110%;
+  padding-left: 6%;
+}
+
+.card-title {
+  color: #B0936A;
+  font-family: GothaProBla;
+  white-space: nowrap;
+  background-color: #efefef;
+}
+
+.card-fut {
+  padding-top: 70px;
+  padding-left: 96px;
+}
+
+.info {
+  padding-top: 90px;
+  background-color: #efefef;
+}
+
+.btn-fnd {
+  float: left;
+  padding-top: 15px;
+  padding-left: 30px;
+}
+
+.btn-fnd :hover{
+  color: white;
+  font-weight: bold;
+}
+
+.btn-default {
+  font-family: gotha;
+  font-size: 20px;
+  font-weight: bold;
+  width: 240px;
+  height: 50px;
+  border-radius: 0%;
+  background: #B0936A;
+  transition: transform .07s ease;
+  color: whitesmoke;
+  margin-left: 4%;
+  margin-top: -20px;
+}
+
+.btn-default:active {
+  background: #dbb785;
+  transform: scale(0.95);
+  color: white;
+}
+
+.btn-default:focus {
+  background: #c9a879;
+  color: white;
+}
