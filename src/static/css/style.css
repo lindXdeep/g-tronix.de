@@ -143,14 +143,20 @@ input#search:focus {
   bottom: 0;
   background: rgba(0, 0, 0, 0.5);
   color: #f1f1f1;
-  width: 60%;
+  width: 700px;
   padding: 40px;
   padding-left: 80px;
   margin-top: -220px;
 }
 
+.about p {
+  font: 40px Arial,sans-serif;
+  font-weight: bolder;
+}
+
+
 h1 {
-  font-size: 45px;
+  font-size: 260%;
   font-weight: bold;
 }
 
@@ -185,6 +191,16 @@ h1 {
   font-family: GothaProBla;
   white-space: nowrap;
   background-color: #efefef;
+  font-size: 285%;
+}
+
+.card-title-2 {
+  font-size: 200%;
+}
+
+.card-text{
+  font-size: 130%;
+  white-space: nowrap;
 }
 
 .card-fut {
@@ -231,4 +247,27 @@ h1 {
 .btn-default:focus {
   background: #c9a879;
   color: white;
+}
+
+
+
+
+
+.footer {
+  background-color: black;
+  color:  whitesmoke;
+  font-family: gotha;
+  padding-top: 90px;
+  padding-left: 1%;
+  padding-bottom: 60px;
+  font-size: x-large;
+}
+
+.copyryght {
+  background-color: black;
+  color:  whitesmoke;
+  font-family: gotha;
+  padding-left: 2%;
+  padding-bottom: 50px;
+  white-space: nowrap;
 }

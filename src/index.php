@@ -9,6 +9,7 @@
 
   <link rel="stylesheet" href="./static/css/bootstrap.css">
   <link rel="stylesheet" href="./static/css/style.css">
+  <link rel="stylesheet" href="./static/css/slider.css">
 
 </head>
 
@@ -24,17 +25,17 @@
     </video>
 
     <div class="about">
-      <h1>Komplettversorgung mit elektronischen Komponenten</h1>
+      <p>Komplettversorgung mit elektronischen Komponenten</p>
     </div>
 
 
 
-    <div id="section-1" class="row" style="padding: 90px;" >
+    <div id="section-1" class="row" style="padding: 90px; padding-top: 130px;">
 
       <div class="col">
 
         <p>
-          <h2> <strong>Unabhängiger Distributor aus Überzeugung</strong></h2>
+        <h2 style="width: 80%; font-size: 245%;"> <strong>Unabhängiger Distributor aus Überzeugung</strong></h2>
         </p>
 
 
@@ -56,7 +57,7 @@
             <div class="card">
               <div class="card-body">
                 <h1 class="card-title">60 000</h1>
-                <p class="card-text">наименований товаров</p>
+                <p class="card-text">Warenpositionen</p>
               </div>
             </div>
           </article>
@@ -65,7 +66,7 @@
             <div class="card">
               <div class="card-body">
                 <h1 class="card-title">25 000</h1>
-                <p class="card-text">снятых с производства</p>
+                <p class="card-text">Artikel abgekündigt</p>
               </div>
             </div>
           </article>
@@ -78,10 +79,10 @@
             <div class="card">
               <div class="card-body">
                 <h1 class="card-title">8 000</h1>
-                <p class="card-text">уникальных спец. компонентов
+                <p class="card-text">Einzigartige spezialkomponenten
 
                   <br>
-                  <span style="color: rgb(138, 138, 138);"><small>больше нигде не найдёте</small></span>
+                  <span style="color: rgb(138, 138, 138);"><small>die Sie sonst nirgendwo finden werden</small></span>
                 </p>
 
               </div>
@@ -90,11 +91,34 @@
 
         </div>
 
+        
       </div>
 
 
+      <div class="row slider" style="background-color: while; width: 100%; margin-top: 55px; margin-bottom: 100px;">
+
+        <div class="row slider-arrows">
+
+          <div class="col-xs-2">
+            <button type="button" class="prev" style="color: whitesmoke;">_</button>
+          </div>
+
+          <div class="col-xs-2" style="background-color: white; margin: 0 auto;">
+            <?php include "./pages/slider.php" ?>
+          </div>
+
+
+          <div class="col-xs-2">
+            <button type="button" class="next" style="color: whitesmoke;">_</button>
+          </div>
+
+        </div>
+
+
+      </div>
 
     </div>
+
 
 
     <div class="row" style="background-color: #B0936A">
@@ -107,8 +131,8 @@
 
       <article class="col-lg-5">
         <div class="card-fut">
-          <div class="card-body">
-            <img src="./static/img/image 1.png" alt="" style="width: 300px;">
+          <div class="card-body" style="margin: 0 auto; text-align: center;">
+            <img src="./static/img/image 1.png" alt="" style="width: 330px;">
           </div>
         </div>
       </article>
@@ -117,7 +141,7 @@
         <div class="card">
           <div class="card-body">
             <h2 class="card-title-2"><strong>Maximale Qualität </strong></h2>
-            <h5><strong>Transparenz & Sicherheit + Zertifizierung & Garantie</strong></h5>
+            <h4><strong>Transparenz & Sicherheit + Zertifizierung & Garantie</strong></h4>
             <br>
             <p>
               Bei uns steht seit jeher die Qualität und Transparenz für unsere Kunden im Mittelpunkt. Daher stellen wir bereits im Einkauf die maximale Qualität unserer elektronischen Bauteile für Sie sicher. Somit gewährleisten wir Ihnen die optimale Funktionalität
@@ -171,18 +195,18 @@
     </div>
 
     <?php include "./pages/footer.html" ?>
-    
+
   </div>
 
 
 
-  
+
 
 
   <script src="./static/js/jquery.js" type="text/javascript"></script>
   <script src="./static/js/bootstrap.js" type="text/javascript"></script>
   <script src="./static/js/modal.js" type="text/javascript"></script>
+  <script src="./static/js/slider.js" type="text/javascript"></script>
 </body>
 
 </html>
-
