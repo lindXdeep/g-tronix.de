@@ -21,19 +21,20 @@
 @media (min-width: 1441px) {
   .container {
     max-width: 1441px;
+    padding: 0px 0px 0px 0px;
   }
 }
 
 #body {
   font-family: gotha;
+  margin: 0px 0px 0px 0px;
+  padding: 0px 0px 0px 0px;
 }
 
 body {
   background-color: #efefef;
-}
-
-.lin-1 {
-  background-color: white;
+  margin: 0px 0px 0px 0px;
+  padding: 0px 0px 0px 0px;
 }
 
 #search {
@@ -79,18 +80,22 @@ input#search:focus {
   font-weight: bold;
 }
 
-.lin-nav {
-  background-color: white;
-  margin-left: 56px;
-  z-index: 2;
+.navbar {
+  padding: 0%;
 }
 
 .lin-nav-footer {
   background-color: rgb(34, 34, 34);
   color: white;
   font-size: 23px;
-  width: 110%;
-  z-index: 1;
+  width: 100%;
+  margin: 0px;
+}
+
+.lin-nav {
+  background-color: white;
+  margin-left: 56px;
+  z-index: 2;
 }
 
 .ln {
@@ -128,14 +133,35 @@ input#search:focus {
   font-weight: bold;
 }
 
+.navigate {
+  width: 100%;
+  z-index: 3;
+  margin: 0px 10px 0px 10px;
+  padding: 0px 0px;
+}
+
 #bgVideo {
-  position: relative;
-  right: 0;
-  bottom: 0;
-  width: 102%;
   min-height: 80%;
-  margin: -15px;
+  max-height: 80%;
+  width: 102%;
   z-index: 0;
+  margin: 0px 0px;
+  padding: 0px 0px;
+  margin-left: -5px;
+}
+
+#page-logo {
+  min-height: 80%;
+  max-height: 80%;
+  margin: 0px 0px;
+  margin-left: -5px;
+  padding: 0px 0px;
+  z-index: -1;
+}
+
+#page-logo img {
+  width: 101.7%;
+  z-index: -1;
 }
 
 .about {
@@ -150,10 +176,24 @@ input#search:focus {
 }
 
 .about p {
-  font: 40px Arial,sans-serif;
+  font: 40px Arial, sans-serif;
   font-weight: bolder;
 }
 
+.about-static {
+  position: sticky;
+  bottom: 0;
+  color: #f1f1f1;
+  width: 700px;
+  padding: 40px;
+  padding-left: 80px;
+  margin-top: -160px;
+}
+
+.about-static p {
+  font: 40px Arial, sans-serif;
+  font-weight: bolder;
+}
 
 h1 {
   font-size: 260%;
@@ -175,6 +215,14 @@ h1 {
   padding-top: 130px;
 }
 
+.content-section {
+  background-color: white;
+  margin-top: -2.5%;
+  margin-left: -5px;
+  width: 102%;
+  font-size: 90%;
+}
+
 .card {
   background-color: #efefef;
   border: none;
@@ -182,7 +230,7 @@ h1 {
 
 .card-body-2 {
   background-color: white;
-  font-size: 110%;
+  font-size: 90%;
   padding-left: 6%;
 }
 
@@ -198,7 +246,7 @@ h1 {
   font-size: 200%;
 }
 
-.card-text{
+.card-text {
   font-size: 130%;
   white-space: nowrap;
 }
@@ -219,7 +267,7 @@ h1 {
   padding-left: 30px;
 }
 
-.btn-fnd :hover{
+.btn-fnd :hover {
   color: white;
   font-weight: bold;
 }
@@ -249,25 +297,26 @@ h1 {
   color: white;
 }
 
-
-
-
+.brand {
+  margin-left: 110px;
+}
 
 .footer {
   background-color: black;
-  color:  whitesmoke;
+  color: whitesmoke;
   font-family: gotha;
-  padding-top: 90px;
-  padding-left: 1%;
+  padding-top: 50px;
+  padding-left: 0%;
   padding-bottom: 60px;
-  font-size: x-large;
+  font-size: 80%;
 }
 
 .copyryght {
   background-color: black;
-  color:  whitesmoke;
+  color: rgb(124, 124, 124);
   font-family: gotha;
   padding-left: 2%;
   padding-bottom: 50px;
   white-space: nowrap;
+  font-size: 60%;
 }

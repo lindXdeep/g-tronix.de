@@ -11,23 +11,28 @@
   <link rel="stylesheet" href="./static/css/style.css">
   <link rel="stylesheet" href="./static/css/slider.css">
 
+  <link rel="import" href="./nav/header.html">
+
 </head>
 
 <body>
 
-  <div class="container lin-1">
+  <div class="container">
 
-    <?php include "./pages/header.html" ?>
+    <div class="navigate">
+      <?php include "./nav/header.html" ?>
+    </div>
+
 
     <video autoplay muted loop id="bgVideo" onclick="myFunction()">
       <source src="./static/video/bgvideo.webm" type="video/webm">
       Your browser does not support HTML5 video.
     </video>
 
+
     <div class="about">
       <p>Komplettversorgung mit elektronischen Komponenten</p>
     </div>
-
 
 
     <div id="section-1" class="row" style="padding: 90px; padding-top: 130px;">
@@ -91,7 +96,7 @@
 
         </div>
 
-        
+
       </div>
 
 
@@ -163,7 +168,7 @@
       <article class="col-lg-6">
         <div class="card">
           <div class="card-body-2">
-            <h1 style="font-weight: bold; font-size: 210%">
+            <h1 style="font-weight: bold; font-size: 170%">
               <strong> Ihr zuverlässiger Partner für die unabhängige Distribution elektronischer Bauteile</strong>
             </h1>
             <br>
@@ -194,12 +199,9 @@
 
     </div>
 
-    <?php include "./pages/footer.html" ?>
+    <?php include "./nav/footer.html" ?>
 
   </div>
-
-
-
 
 
 
