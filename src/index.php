@@ -14,79 +14,24 @@
   <div class="wrapper">
 
     <header class="header">
-      <div class="container">
-        <div class="header-body">
-          <a href="#" class="header-logo">
-            <img src="/static/img/brand.svg" alt="">
-          </a>
-          <div class="collapse-menu">
-            <span></span>
-          </div>
-          <div class="search">
-            <form action="#" method="get">
-              <input type="search" name="" id="search-field" placeholder="Geben Sie den Komponentennamen ein">
-              <input type="submit" value="Suche" id="search-btn">
-            </form>
-          </div>
-        </div>
-      </div>
-
-      <div class="header-menu">
-        <div class="container">
-          <div class="header-body-menu">
-
-            <div class="nav-block">
-
-              <div class="nav-sub-block-1" id="nav-sub-block-1">
-                <a href="#">
-                  Unternehmen
-                  <img src="/static/img/vv.png" alt="">
-                </a>
-                <div class="drop_down-menu-1" id="d-menu-1">
-                  <a href="#">Firmenprofil</a>
-                  <a href="#">Qualität</a>
-                </div>
-              </div>
-
-              <div class="nav-sub-block-2" id="nav-sub-block-2">
-                <a href="#">
-                  Leistrunger
-                  <img src="/static/img/vv.png" alt="">
-                </a>
-                <div class="drop_down-menu-2" id="d-menu-2">
-                  <a href="#">Distribution</a>
-                  <a href="#">Engpass Management</a>
-                </div>
-              </div>
-
-            </div>
-
-            <div class="info-block">
-              <img src="/static/img/Vector.svg" alt="">
-              <a href="tel:4940334665799">
-                +49 40 3346657-99
-              </a>
-              <img src="/static/img/Vector2.svg" alt="">
-              <a href="href=" mailto:info@gtronix.de">
-                info@gtronix.de
-              </a>
-            </div>
-
-          </div>
-
-        </div>
-      </div>
+      <?php include "./nav/header.html" ?>
     </header>
 
-    <div class="shadow"></div>
-    <div class="video-block">
+    <div class="shadow-container">
+      <div class="shadow-frame">
+        <div class="shadow"></div>
+      </div>
+    </div>
+
+    <div class="preview-block">
+
       <div class="container">
 
         <div class="about">
           <p>Komplettversorgung mit elektronischen Komponenten</p>
         </div>
       </div>
-      <video autoplay muted loop>
+      <video autoplay muted loop id="preview">
         <source src="/static/video/bgvideo1.webm" type="video/webm">
         Your browser does not support HTML5 video.
       </video>
@@ -144,6 +89,10 @@
             </article>
 
           </div>
+
+        </div>
+
+        <div class="content-block-1-slider">
 
           <div class="slider">
             <div class="slider-arrows">
@@ -225,22 +174,16 @@
             </div>
 
 
-
-
-
-
-
           </div>
         </div>
 
       </div>
 
-
-
-
     </div>
 
-    <?php include "./nav/footer.html" ?>
+    <footer>
+      <?php include "./nav/footer.html" ?>
+    </footer>
 
   </div>
 

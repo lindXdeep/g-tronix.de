@@ -8,7 +8,14 @@ clean:
 deploy:
 	sudo cp -r src/* /var/www/html/
 
+deploy-hosting:
+	sudo cp -r src/* ftp://w017ca10.kasserver.com/paraskeva.de/
+
 open:
 	google-chrome --new-window --incognito  http://localhost:80
 
 compile-run: clean deploy open
+
+
+
+
