@@ -13,6 +13,7 @@
 
     "workspaceCacheClean.silent": false,
     "workspaceCacheClean.autoReload": false,
-    "java.configuration.updateBuildConfiguration": "automatic"
+    "java.configuration.updateBuildConfiguration": "automatic",
+    "liveServer.settings.port": 5501
 
 }

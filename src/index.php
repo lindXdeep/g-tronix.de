@@ -5,197 +5,238 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/static/css/main.css">
+  <link rel="stylesheet" href="/static/css/slider.css">
   <title>Main page</title>
-
-  <link rel="stylesheet" href="./static/css/bootstrap.css">
-  <link rel="stylesheet" href="./static/css/style.css">
-  <link rel="stylesheet" href="./static/css/slider.css">
-
-  <link rel="import" href="./nav/header.html">
-
 </head>
 
 <body>
+  <div class="wrapper">
 
-  <div class="container">
-
-    <div class="navigate">
-      <?php include "./nav/header.html" ?>
-    </div>
-
-
-    <video autoplay muted loop id="bgVideo" onclick="myFunction()">
-      <source src="./static/video/bgvideo.webm" type="video/webm">
-      Your browser does not support HTML5 video.
-    </video>
-
-
-    <div class="about">
-      <p>Komplettversorgung mit elektronischen Komponenten</p>
-    </div>
-
-
-    <div id="section-1" class="row" style="padding: 90px; padding-top: 130px;">
-
-      <div class="col">
-
-        <p>
-        <h2 style="width: 80%; font-size: 245%;"> <strong>Unabhängiger Distributor aus Überzeugung</strong></h2>
-        </p>
-
-
-        <p>
-          Wir sind Ihr unabhängiger Partner für die erstklassige Distribution von elektronischen Bauteilen sowie Komponenten unterschiedlichster Art. Durch unsere schnelle und einfache sowie direkte Belieferung unterstützen wir Sie bei der Überbrückung von Engpässen
-          in der Beschaffung. So läuft Ihre Produktion dauerhaft und ohne Verzögerungen weiter!
-        </p>
-
-        <p>
-          Unser Lager umfasst Tausende von elektronischen Bauteilen sowie Komponenten und wir für Sie dauerhaft erweitert. Dazu kaufen wir Lagerüberbestände auf und beschaffen abgekündigte Bauelemente, die Sie sonst nirgendwo finden. Außerdem kümmern wir uns für
-          Sie auch gerne um Sonderbeschaffungen von Bauteilen, die Sie sich wirklich nirgendwo anders liefern lassen können. – Fragen Sie daher gerne einfach an und finden Sie genau die elektronischen Bauteile, nach denen Sie gesucht haben!
-        </p>
+    <header class="header">
+      <div class="container">
+        <div class="header-body">
+          <a href="#" class="header-logo">
+            <img src="/static/img/brand.svg" alt="">
+          </a>
+          <div class="collapse-menu">
+            <span></span>
+          </div>
+          <div class="search">
+            <form action="#" method="get">
+              <input type="search" name="" id="search-field" placeholder="Geben Sie den Komponentennamen ein">
+              <input type="submit" value="Suche" id="search-btn">
+            </form>
+          </div>
+        </div>
       </div>
-      <div class="col">
 
-        <div class="info row row-cols-1 row-cols-sm-2 row-cols-md-2 row-cols-lg-2">
+      <div class="header-menu">
+        <div class="container">
+          <div class="header-body-menu">
 
-          <article class="col-lg-6">
-            <div class="card">
-              <div class="card-body">
-                <h1 class="card-title">60 000</h1>
-                <p class="card-text">Warenpositionen</p>
+            <div class="nav-block">
+
+              <div class="nav-sub-block-1" id="nav-sub-block-1">
+                <a href="#">
+                  Unternehmen
+                  <img src="/static/img/vv.png" alt="">
+                </a>
+                <div class="drop_down-menu-1" id="d-menu-1">
+                  <a href="#">Firmenprofil</a>
+                  <a href="#">Qualität</a>
+                </div>
+              </div>
+
+              <div class="nav-sub-block-2" id="nav-sub-block-2">
+                <a href="#">
+                  Leistrunger
+                  <img src="/static/img/vv.png" alt="">
+                </a>
+                <div class="drop_down-menu-2" id="d-menu-2">
+                  <a href="#">Distribution</a>
+                  <a href="#">Engpass Management</a>
+                </div>
+              </div>
+
+            </div>
+
+            <div class="info-block">
+              <img src="/static/img/Vector.svg" alt="">
+              <a href="tel:4940334665799">
+                +49 40 3346657-99
+              </a>
+              <img src="/static/img/Vector2.svg" alt="">
+              <a href="href=" mailto:info@gtronix.de">
+                info@gtronix.de
+              </a>
+            </div>
+
+          </div>
+
+        </div>
+      </div>
+    </header>
+
+    <div class="shadow"></div>
+    <div class="video-block">
+      <div class="container">
+
+        <div class="about">
+          <p>Komplettversorgung mit elektronischen Komponenten</p>
+        </div>
+      </div>
+      <video autoplay muted loop>
+        <source src="/static/video/bgvideo1.webm" type="video/webm">
+        Your browser does not support HTML5 video.
+      </video>
+    </div>
+
+    <div class="content">
+
+      <div class="container">
+
+        <div class="content-block-1">
+
+          <div class="col-1">
+
+            <h1 class="h-34">Unabhängiger Distributor aus Überzeugung</h1>
+            <p>
+              Wir sind Ihr unabhängiger Partner für die erstklassige Distribution von elektronischen Bauteilen sowie Komponenten unterschiedlichster Art. Durch unsere schnelle und einfache sowie direkte Belieferung unterstützen wir Sie bei der Überbrückung von Engpässen
+              in der Beschaffung. So läuft Ihre Produktion dauerhaft und ohne Verzögerungen weiter!
+            </p>
+
+            <p>
+              Unser Lager umfasst Tausende von elektronischen Bauteilen sowie Komponenten und wir für Sie dauerhaft erweitert. Dazu kaufen wir Lagerüberbestände auf und beschaffen abgekündigte Bauelemente, die Sie sonst nirgendwo finden. Außerdem kümmern wir uns für
+              Sie auch gerne um Sonderbeschaffungen von Bauteilen, die Sie sich wirklich nirgendwo anders liefern lassen können. – Fragen Sie daher gerne einfach an und finden Sie genau die elektronischen Bauteile, nach denen Sie gesucht haben!
+            </p>
+
+          </div>
+
+          <div class="col-2">
+
+            <article>
+              <div class="card">
+                <div class="card-body">
+                  <h1>60 000</h1>
+                  <p class="card-text">Warenpositionen</p>
+                </div>
+              </div>
+            </article>
+
+            <article>
+              <div class="card">
+                <div class="card-body">
+                  <h1>25 000</h1>
+                  <p class="card-text">Artikel abgekündigt</p>
+                </div>
+              </div>
+            </article>
+
+            <article>
+              <div class="card">
+                <div class="card-body">
+                  <h1>8 000</h1>
+                  <p class="card-text">Einzigartige spezialkomponenten</p>
+                  <span><small>die Sie sonst nirgendwo finden werden</small></span>
+                </div>
+              </div>
+            </article>
+
+          </div>
+
+          <div class="slider">
+            <div class="slider-arrows">
+              <div class="back">
+                <button type="button" class="prev"></button>
+              </div>
+              <div class="midle">
+                <?php include "./pages/slider.php" ?>
+              </div>
+              <div class="up">
+                <button type="button" class="next"> </button>
               </div>
             </div>
-          </article>
+          </div>
 
-          <article class="col-lg-6">
-            <div class="card">
-              <div class="card-body">
-                <h1 class="card-title">25 000</h1>
-                <p class="card-text">Artikel abgekündigt</p>
+        </div>
+
+      </div>
+
+      <div class="devide"></div>
+
+      <div class="container">
+        <div class="content-block-2">
+
+          <div class="col-1">
+            <img src="/static/img/image 1.png" alt="">
+          </div>
+
+          <div class="col-2">
+            <article>
+              <div class="card">
+                <div class="card-body">
+                  <h1>Maximale Qualität</h1>
+                  <h2>Transparenz & Sicherheit + Zertifizierung & Garantie</h2>
+                  <p class="card-text">
+                    Bei uns steht seit jeher die Qualität und Transparenz für unsere Kunden im Mittelpunkt. Daher stellen wir bereits im Einkauf die maximale Qualität unserer elektronischen Bauteile für Sie sicher. Somit gewährleisten wir Ihnen die optimale Funktionalität
+                    sowie eine lange Lebensdauer Ihrer Bauelemente.
+                  </p>
+                  <p class="card-text">
+                    Zudem prüfen wir im Zuge unseres Qualitätsmanagements alle elektronischen Bauteile systematisch mithilfe von bewährten Mess- und Prüfverfahren, welche nach DIN EN ISO 9001 zertifiziert ist. Hierzu geben wir Ihnen gerne weitere Auskünfte, sodass Sie genau
+                    wissen, was hinter unseren Standards und Gewährleistungen wirklich steckt!
+                  </p>
+                </div>
               </div>
+            </article>
+          </div>
+
+        </div>
+
+
+      </div>
+
+      <div class="container-fluid">
+        <div class="container">
+          <div class="content-block-3">
+
+            <div class="col1">
+              <h1>
+                Ihr zuverlässiger Partner für die unabhängige Distribution elektronischer Bauteile
+              </h1>
+
+              <p>
+                Durch abgekündigte Bauteile verlängert sich die Lieferzeit von elektronischen Bauteilen meist direkt, was für Sie als Produzent zu großen Nachteilen führt. Gut, dass wir es uns als unabhängiger Distributor von elektronischen Bauteilen zur Aufgabe gemacht
+                haben, die idealen Lösungen für dieses Problem zu bieten.
+              </p>
+
+              <p>
+                So haben wir uns auf den Vertrieb von abgekündigten Bauteilen im Elektronikbereich spezialisiert. Wir beschaffen diese nicht nur so effektiv und schnell wie möglich, sondern liefern sie Ihnen auch direkt in die Produktion. Dadurch schließen wir Engpässe
+                und helfen Ihnen mit hochwertigen Ersatzteilen zu angemessenen Preisen. Nehmen Sie daher gerne direkt Kontakt mit uns auf und teilen Sie uns Ihr Anliegen mit. Gemeinsam finden wir eine ideale Lösung und liefern Ihnen schon bald genau die
+                elektronischen Bauteile und Komponenten, die Sie brauchen!
+              </p>
+
+              <button type="submit">Komponentensuche</button>
+
             </div>
-          </article>
 
-        </div>
-
-        <div style="padding-top: 45px;" class="row row-cols-1 row-cols-sm-2 row-cols-md-2 row-cols-lg-2">
-
-          <article class="col">
-            <div class="card">
-              <div class="card-body">
-                <h1 class="card-title">8 000</h1>
-                <p class="card-text">Einzigartige spezialkomponenten
-
-                  <br>
-                  <span style="color: rgb(138, 138, 138);"><small>die Sie sonst nirgendwo finden werden</small></span>
-                </p>
-
-              </div>
+            <div class="col-2">
+              <img src="./static/img/Rectangle 12.png" alt="">
             </div>
-          </article>
 
+
+
+
+
+
+
+          </div>
         </div>
-
 
       </div>
 
 
-      <div class="row slider" style="background-color: while; width: 100%; margin-top: 55px; margin-bottom: 100px;">
 
-        <div class="row slider-arrows">
-
-          <div class="col-xs-2">
-            <button type="button" class="prev" style="color: whitesmoke;">_</button>
-          </div>
-
-          <div class="col-xs-2" style="background-color: white; margin: 0 auto;">
-            <?php include "./pages/slider.php" ?>
-          </div>
-
-
-          <div class="col-xs-2">
-            <button type="button" class="next" style="color: whitesmoke;">_</button>
-          </div>
-
-        </div>
-
-
-      </div>
-
-    </div>
-
-
-
-    <div class="row" style="background-color: #B0936A">
-      <div class="col col-md-12 col-xl-12" style="height: 20px;">
-
-      </div>
-    </div>
-
-    <div id="section-2" class="row row-cols-1 row-cols-sm-2 row-cols-md-2 row-cols-lg-2">
-
-      <article class="col-lg-5">
-        <div class="card-fut">
-          <div class="card-body" style="margin: 0 auto; text-align: center;">
-            <img src="./static/img/image 1.png" alt="" style="width: 330px;">
-          </div>
-        </div>
-      </article>
-
-      <article class="col-lg-6" style="padding-top: 70px; padding-bottom: 100px;">
-        <div class="card">
-          <div class="card-body">
-            <h2 class="card-title-2"><strong>Maximale Qualität </strong></h2>
-            <h4><strong>Transparenz & Sicherheit + Zertifizierung & Garantie</strong></h4>
-            <br>
-            <p>
-              Bei uns steht seit jeher die Qualität und Transparenz für unsere Kunden im Mittelpunkt. Daher stellen wir bereits im Einkauf die maximale Qualität unserer elektronischen Bauteile für Sie sicher. Somit gewährleisten wir Ihnen die optimale Funktionalität
-              sowie eine lange Lebensdauer Ihrer Bauelemente.
-            </p>
-            <p>
-              Zudem prüfen wir im Zuge unseres Qualitätsmanagements alle elektronischen Bauteile systematisch mithilfe von bewährten Mess- und Prüfverfahren, welche nach DIN EN ISO 9001 zertifiziert ist. Hierzu geben wir Ihnen gerne weitere Auskünfte, sodass Sie genau
-              wissen, was hinter unseren Standards und Gewährleistungen wirklich steckt!
-            </p>
-          </div>
-        </div>
-      </article>
-
-    </div>
-
-
-    <div id="section-3" class="row row-cols-1 row-cols-sm-2 row-cols-md-2 row-cols-lg-2">
-
-      <article class="col-lg-6">
-        <div class="card">
-          <div class="card-body-2">
-            <h1 style="font-weight: bold; font-size: 170%">
-              <strong> Ihr zuverlässiger Partner für die unabhängige Distribution elektronischer Bauteile</strong>
-            </h1>
-            <br>
-            <p>
-              Durch abgekündigte Bauteile verlängert sich die Lieferzeit von elektronischen Bauteilen meist direkt, was für Sie als Produzent zu großen Nachteilen führt. Gut, dass wir es uns als unabhängiger Distributor von elektronischen Bauteilen zur Aufgabe gemacht
-              haben, die idealen Lösungen für dieses Problem zu bieten.
-            </p>
-            <p>
-              So haben wir uns auf den Vertrieb von abgekündigten Bauteilen im Elektronikbereich spezialisiert. Wir beschaffen diese nicht nur so effektiv und schnell wie möglich, sondern liefern sie Ihnen auch direkt in die Produktion. Dadurch schließen wir Engpässe
-              und helfen Ihnen mit hochwertigen Ersatzteilen zu angemessenen Preisen. Nehmen Sie daher gerne direkt Kontakt mit uns auf und teilen Sie uns Ihr Anliegen mit. Gemeinsam finden wir eine ideale Lösung und liefern Ihnen schon bald genau die
-              elektronischen Bauteile und Komponenten, die Sie brauchen!
-            </p>
-          </div>
-        </div>
-      </article>
-
-      <article class="col-lg-6">
-        <div class="card-" style="padding-left: 5%;">
-          <div class="card-body-2">
-            <img src="./static/img/Rectangle 12.png" alt="" style="width: 100%;">
-          </div>
-        </div>
-      </article>
-
-      <div class="col btn-fnd">
-        <button class="btn btn-default" type="submit">Komponentensuche</button>
-      </div>
 
     </div>
 
@@ -203,11 +244,7 @@
 
   </div>
 
-
-
-  <script src="./static/js/jquery.js" type="text/javascript"></script>
-  <script src="./static/js/bootstrap.js" type="text/javascript"></script>
-  <script src="./static/js/modal.js" type="text/javascript"></script>
+  <script src="./static/js/main.js" type="text/javascript"></script>
   <script src="./static/js/slider.js" type="text/javascript"></script>
 </body>
 
